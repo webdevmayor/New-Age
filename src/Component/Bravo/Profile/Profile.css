@@ -1,0 +1,45 @@
+.student {
+    text-align: center;
+    color: rgb(190, 180, 180);
+    background-color: gray;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 3rem;
+}
+.image {
+    width: 30%;
+    box-shadow: 1.2em 1.2em 2em whitesmoke;
+    
+}
+.display {
+    display: flex;
+    margin-left: 5em;
+
+}
+input {
+    padding: 1em;
+    margin: 3em 0 0 4em;
+}
+.column form {
+    display: flex;
+    flex-direction: column;
+}
+.container {
+    background: gray;
+    margin: 3em 20em 0 10em;
+    padding: 4em 0 4em 0;
+    border-radius: 1.2em;
+}
+button {
+    padding: 1.2em;
+    width: 15em;
+    background-color: hotpink;
+    border: none;
+    border-radius: 1.1em;
+    margin: 1em auto 0 4em;
+}
+.btn {
+    display: flex;
+    flex-direction: column;
+}

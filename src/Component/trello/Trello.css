@@ -1,0 +1,279 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --light:#3A4B68;
+    --dark:  #0065FF;
+}
+.navbar {
+    position: sticky !important;
+    top: 0 !important;
+    z-index: 99;
+}
+
+.navbar ul  {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    list-style: none;
+    z-index: 99;
+    justify-content: space-between;
+}
+.navbar ul:hover  {
+    display: flex;
+    align-items: center;
+    background: #FFFFFF;
+    list-style: none;
+    box-shadow: 0 0.5em 1em#E2E4E9;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.navbar ul a {
+    text-decoration: none;
+    color: #3A4B68;
+}
+.navbar ul a:hover {
+    color: #0065FF;
+}
+.nav-img{
+    width: 42%;
+    margin-top: 0.5em;
+    display: inline-block;
+    justify-content: space-between;
+}
+.nav-link{
+    display: flex;
+    margin-left: -12em;
+    margin-top: 0.18em;
+    
+}
+ .nav-links {
+    display: flex;
+    gap: 2em; 
+} 
+.left-nav {
+    margin-left: 34.1em;
+    display: flex;
+    gap: 3.5em;
+}
+.free a{
+    background: #0065FF;
+    padding: 1em;
+    color: white !important;
+}
+.free a:hover {
+    background-color: blue;
+    color: white !important;
+}
+/* Sign up section */
+#para {
+    line-height: 1.8;
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0.9em;
+}
+.input-email {
+    padding: 0.9em 7em 0.9em 1em;
+    border: 1px solid var(--light);
+    border-radius: 3px;
+    margin-top: 3em;
+}
+.sign-btn{
+    padding:  0.74em;
+    border: none;
+    border-radius: 3px;
+    background: var(--dark);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 1.7em;
+    margin-top: 3em;
+}
+.trello-team {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background: linear-gradient(#EFECFF, rgb(255,255,255));
+}
+.team-img {
+    width: 30%;
+    height: 60vh;
+    margin-top: 2em;
+}
+
+/* work section */
+.project {
+    text-align: center;
+    margin-top: 5em;
+}
+#para1 {
+    line-height: 1.8;
+    font-size: 1.1em;
+    margin-top: 0.9em;
+}
+#head {
+    color: white;
+    background: var(--dark);
+    padding: 0.9em;
+    text-align: center;
+    border: none;
+    font-size: 1em;
+    margin: 1em;
+    border-radius: 4px;
+    display: inline-block;
+}
+.trello-img {
+    width: 60%;
+    margin-top: 0.8em;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#para2 {
+    font-size: 1.2em;
+    text-align: center;
+    margin-top: 1em;
+}
+.zoom-img {
+    width: 15%;
+}
+.img-unit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 2em 16em;
+    gap: 0.8em;
+}
+#para3 {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 0.9em;
+}
+.feature {
+    margin: 4em 13em;
+}
+.feature-board{
+    margin-top: 5em;
+    display: flex;
+    gap: 4em;
+    
+}
+.feature-img{
+    width: 40%;
+}
+#para4 {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 0.9em;
+}
+#head1 {
+    margin-bottom: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head2 {
+    margin-top: 1em;
+}
+#para5 {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 0.9em;
+}
+#head3{
+    margin-top: 1em;
+}
+.card-img {
+    width: 35%;
+}
+.card {
+    margin: 5em 13em;
+    display: flex;
+    gap: 5em;
+}
+#head4{
+    margin-top: 1em;
+}
+#para6 {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 0.9em;
+}
+.automation{
+    display: flex;
+    margin: 5em 10.5em;
+    gap: 5em
+}
+.automation-img{
+    width: 40%;
+}
+#para7 {
+    font-size: 1.1em;
+    line-height: 1.8;
+    margin-top: 0.9em;
+}
+#head5{
+    margin-top: 1em;
+}
+.integrate {
+    display: flex;
+    margin: 5em 10.5em;
+    gap: 5em
+}
+.integrate-img {
+    width: 35%
+}
+.enter-card {
+    width: 25%;
+    position: relative;
+}
+.para8 {
+    line-height: 1.4;
+    margin-top: 0.9em;
+    font-size: 0.9em;
+}
+.enterbtn {
+    padding:  0.74em;
+    border: none;
+    border-radius: 3px;
+    background: var(--dark);
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    margin-top: 1em;
+
+}
+.enter-img {
+    width: 25%;
+    position: absolute;
+    top: 1em;
+    left: -5em;
+}
+.enterprise {
+    display: flex;
+    margin: 5em 12.5em;
+    gap: 7em;
+    border-top: 1px solid rgba(128, 128, 128, 0.699);
+    border-bottom: 1px solid rgba(128, 128, 128, 0.699);
+    padding: 2.6em 0;
+}
+.chattered {
+    width: 100%;
+    min-height: 60vh;
+    background: #E6FCFF;
+    position: relative;
+}
+#para9 {
+    font-size: 2em;
+    position: absolute;
+    top: 2.3em;
+    left: 7.2em;
+
+}
+#quote {
+    font-size: 1.7em;
+    color: #00A3BF;
+    margin-left: -0.8em;
+}
